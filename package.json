@@ -1,0 +1,26 @@
+{
+  "name": "twitter-countdown",
+  "version": "0.0.0",
+  "description": "Twitter bot that tweets out time left until a specified date.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simulatedgreg/twitter-countdown.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "countdown",
+    "date",
+    "time"
+  ],
+  "author": "Greg Holguin <simulatedgreg@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simulatedgreg/twitter-countdown/issues"
+  },
+  "homepage": "https://github.com/simulatedgreg/twitter-countdown#readme"
+}
