@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/simulatedgreg/twitter-countdown/issues"
   },
-  "homepage": "https://github.com/simulatedgreg/twitter-countdown#readme"
+  "homepage": "https://github.com/simulatedgreg/twitter-countdown#readme",
+  "dependencies": {
+    "twitter": "^1.2.5"
+  }
 }
