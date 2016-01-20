@@ -11,6 +11,7 @@ setInterval(function() {
     status: composeTweet()
   }, function(err, tweet, res) {
     if(err) console.log(err);
+    console.log('Tweet posted: ', tweet);
   });
 }, config.interval);
 
