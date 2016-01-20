@@ -9,7 +9,9 @@ var client = new Twitter(config.credentials);
 setInterval(function() {
   client.post('statuses/update', {
     status: composeTweet()
-  }, function(err, tweet, res) { });
+  }, function(err, tweet, res) {
+    if(err) console.log(err);
+  });
 }, config.interval);
 
 /**
